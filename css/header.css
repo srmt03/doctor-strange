@@ -1,0 +1,28 @@
+header {
+    color: white;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.logo{
+    height: 36px;
+}
+.navegacao {
+    height: 36px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.navegacao a {
+    text-shadow: 2px 2px 4px #000;
+    padding: 8px;
+    border-radius: 5px;
+}
+.navegacao a:hover{
+    background-color: var(--accent-color);
+    transition: all 0.5s;
+}
