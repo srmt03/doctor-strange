@@ -8,7 +8,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 50px;
+    gap: 20px;
 }
 .conteudo h1 {
     display: flex;
@@ -16,11 +16,13 @@ main{
     font-size: 8rem;
     line-height: 4.5rem;
     color: white;
-    line-height: 5rem;
+    font-weight: 400;
 }
 .movie-titulo {
     color: var(--accent-color);
     font-size: 3rem;
+    font-weight: 200;
+    font-style: italic;
 }
 .movie-texto {
     color: white;
@@ -32,10 +34,10 @@ main{
     font-weight: 200;
 }
 .botao {
-    width: 80px;
-    height: 300px;
+    width: 300px;
+    height: 80px;
     background-color: var(--accent-color);
-    border-radius: 10;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +45,33 @@ main{
     font-weight: 100;
     font-style: italic;
 }
-.rede-social{
+/*.rede-social{
     background-color: blueviolet;
     width: 48px;
+}*/
+.rede-social ul{
+    height: 100%;
+    width: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+.rede-social a{
+    height: 48px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.rede-social a:hover{
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    transition: all 0.5s;
+}
+.rede-social i{
+    font-size: 1.5rem;
 }
