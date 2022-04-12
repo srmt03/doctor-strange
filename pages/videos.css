@@ -13,7 +13,7 @@ body{
     background: url(../img/image\ 6.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right;
+    background-position: center;
 }
 @media (max-width: 768px){
     body{
