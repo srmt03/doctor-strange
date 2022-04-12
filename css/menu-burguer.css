@@ -1,0 +1,38 @@
+.menu-burguer-conteiner{
+    height: 36px;
+    width: 36px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    display: none;
+}
+.menu-burguer, .menu-burguer::before, .menu-burguer::after{
+    display: block;
+    content: "";
+    height: 4px;
+    width: 36px;
+    background-color: white;
+    position: absolute;
+    transition: all 0.5s;
+}
+.menu-burguer::before{
+    transform: translateY(-12px);
+}
+.menu-burguer::after{
+    transform: translateY(12px);
+}
+.menu-burguer-conteiner.show .menu-burguer{
+    background-color: transparent;
+}
+.menu-burguer-conteiner.show .menu-burguer::before{
+    transform: rotate(45deg);
+}
+.menu-burguer-conteiner.show .menu-burguer::after{
+    transform: rotate(-45deg);
+}
+@media (max-width:768px) {
+    .menu-burguer-conteiner{
+        display: flex;
+        z-index: 1;
+    }
+}

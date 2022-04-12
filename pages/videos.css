@@ -1,0 +1,23 @@
+:root{
+    --accent-color: #FF031A;
+}
+body, html{
+    position: relative;
+    overflow: hidden;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0 128px;
+    background: url(../img/image\ 6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+@media (max-width: 768px){
+    body{
+        padding: 0 30px;
+        background-image: url(../img/image\ 6.png);
+    }
+}
