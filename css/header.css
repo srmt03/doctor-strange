@@ -6,11 +6,11 @@ header {
     align-items: flex-end;
 }
 .logo-conteiner{
-    height: 36px;
+    height: 43px;
 }
 .logo{
-    height: 36px;
-    width: 160px;
+    height: 43px;
+    width: 208px;
 }
 .navegacao {
     height: 36px;
@@ -18,7 +18,7 @@ header {
     align-items: center;
     gap: 40px;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    font-weight: large;
     font-size: 1.1rem;
 }
 .navegacao a {
