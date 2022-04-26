@@ -3,12 +3,12 @@
 Projeto construído durante as aulas do curso de Desenvolvimento de Sistemas no [SENAI Jandira](https://jandira.sp.senai.br/) apresentado a disciplina de Linguagem de Marcação, ministrada pelo Professor [Fernado Leonid](https://github.com/fernandoleonid).
 
 ## . homepage 
-![](./homepage.png)
+![](../img/homepage.png)
 
 ## . homemobile
-![](./homemobile.png) 
+![](../img/mobile.png) 
 ## . menumobile
-![](./menumobile.png)
+![](../img/menumobile.png)
 
 ---
 
@@ -29,5 +29,5 @@ Landing Pages são páginas com foco principal na conversão de visitantes, assi
 ## Links 
 
 - [Resultados](https://srmt03.github.io/doctor-strange/)
-- [Projeto no Figma]( https://www.figma.com/file/V9XpzVvVtiMTsoufMzyPb4/LIMAdoctorstrange?node-id=13%3A39)
+- [Projeto no Figma](https://www.figma.com/file/V9XpzVvVtiMTsoufMzyPb4/LIMAdoctorstrange?node-id=13%3A39)
 - [Código](https://github.com/srmt03/doctor-strange)
