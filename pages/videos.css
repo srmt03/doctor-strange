@@ -14,10 +14,46 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    animation: zoom 1s;
 }
+
+main{
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    padding-top: 50px;
+}
+.trailer{
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    gap: 50px;
+}
+
 @media (max-width: 768px){
     body{
         padding: 0 30px;
-        background-image: url(../img/image\ 6.png);
+        /*background-image: url(../img/image\ 6.png);*/
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    header{
+        padding-top: 30px;
+    }
+    main{
+        padding-bottom: 30px;
+
+    }
+    .trailer{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@keyframes zoom{
+    0% {
+        transform: scale(2);
+    }
+    100% {
+        transform: scale(1);
     }
 }

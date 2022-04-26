@@ -5,6 +5,7 @@ body, html{
     position: relative;
     overflow: hidden;
 }
+
 body{
     height: 100vh;
     display: flex;
@@ -17,6 +18,7 @@ body{
     padding: 0 128px;
     animation: zoom 1s;
 }
+
 main{
     display: flex;
     padding-top: 60px;
@@ -57,6 +59,7 @@ main{
         padding: 0 30px;
         overflow-x: hidden;
         overflow-y: scroll;
+        animation: zoom .8s;
     }
     header{
         margin-top: 30px;
@@ -76,9 +79,10 @@ main{
         width: 80vw;
     }
 }
+
 @keyframes zoom{
     0% {
-        transform: scale(-3);
+        transform: scale(2);
     }
     100% {
         transform: scale(1);
